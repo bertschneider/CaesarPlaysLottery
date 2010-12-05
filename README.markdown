@@ -6,16 +6,15 @@ A little kata to convert roman numbers into decimal ones.
 
 To convert a number use the _convert-roman_ function.
 
-> (convert-roman "MMDCCLI")
-> 2751
+> (convert-roman "MMDCCLI") ==> 2751
 
 ## Tests
 
-(LazyTest)[https://github.com/stuartsierra/lazytest] is used. It Worked
+[LazyTest](https://github.com/stuartsierra/lazytest) is used. It Worked
 pretty well so have a look at it.
 
 To run the test watcher use:
-java -cp "src:test:classes:lib/*" lazytest.watch src test
+> java -cp "src:test:classes:lib/*" lazytest.watch src test
 
 ### Test Output
 
