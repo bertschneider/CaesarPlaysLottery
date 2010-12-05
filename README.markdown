@@ -6,22 +6,23 @@ A little kata to convert roman numbers into decimal ones.
 
 To convert a number use the _convert-roman_ function.
 
-> (convert-roman "MMDCCLI") ==> 2751
+   (convert-roman "MMDCCLI")
+   2751
 
 ## Tests
 
-[LazyTest](https://github.com/stuartsierra/lazytest) is used. It Worked
+[LazyTest](https://github.com/stuartsierra/lazytest) is used. It worked
 pretty well so have a look at it.
 
 To run the test watcher use:
-> java -cp "src:test:classes:lib/*" lazytest.watch src test
+    java -cp "src:test:classes:lib/*" lazytest.watch src test
 
 ### Test Output
 
-At  #<Date Sun Dec 05 19:55:29 CET 2010>
-Reloading de.herrnorbert.CaesarPlaysLottery.test.core
-....................
-Namespaces
+    At  #<Date Sun Dec 05 19:55:29 CET 2010>
+    Reloading de.herrnorbert.CaesarPlaysLottery.test.core
+    ....................
+    Namespaces
     de.herrnorbert.CaesarPlaysLottery.test.core
         #'de.herrnorbert.CaesarPlaysLottery.core/convert-roman
             basic number conversion
@@ -49,10 +50,10 @@ Namespaces
                 should convert CCCLXIX to 369
                 should convert MMDCCLI to 2751
 
-Ran 20 test cases.
-0 failures.
-
-Done.
+                Ran 20 test cases.
+                0 failures.
+                
+                Done.
 
 ## License
 
